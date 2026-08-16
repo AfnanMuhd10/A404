@@ -1,0 +1,6 @@
+{
+  "name": "App Cloner",
+  "description": "Powerful Android app cloner to run multiple accounts, isolate sandboxed environments, customize app identity, and manage cloned spaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

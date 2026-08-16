@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Primary base clone card -->
+    <path
+        android:pathData="M32,32 h28 a8,8 0 0,1 8,8 v28 a8,8 0 0,1 -8,8 h-28 a8,8 0 0,1 -8,-8 v-28 a8,8 0 0,1 8,-8 z"
+        android:fillColor="#4338CA"
+        android:strokeWidth="1.5"
+        android:strokeColor="#6366F1" />
+        
+    <!-- Front clone card offset with vibrant cyan glow -->
+    <path
+        android:pathData="M48,46 h28 a8,8 0 0,1 8,8 v28 a8,8 0 0,1 -8,8 h-28 a8,8 0 0,1 -8,-8 v-28 a8,8 0 0,1 8,-8 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="46"
+                android:endX="84"
+                android:endY="90"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#06B6D4" />
+                <item android:offset="1.0" android:color="#3B82F6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M48,46 h28 a8,8 0 0,1 8,8 v28 a8,8 0 0,1 -8,8 h-28 a8,8 0 0,1 -8,-8 v-28 a8,8 0 0,1 8,-8 z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#A5F3FC" />
+
+    <!-- Clone Symbol (overlapping copy mark) inside front card -->
+    <path
+        android:pathData="M56,58 h12 v12 h-12 z"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M62,54 v4 M66,54 v4 M72,60 h-4 M72,64 h-4"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <!-- Clone badge dot -->
+    <path
+        android:pathData="M76,46 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#10B981" />
+</vector>
